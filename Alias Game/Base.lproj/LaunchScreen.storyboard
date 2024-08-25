@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alipsico" translatesAutoresizingMaskIntoConstraints="NO" id="xum-64-Ttj">
+                                <rect key="frame" x="96.666666666666686" y="94" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="7ab-Jt-oQ4"/>
+                                    <constraint firstAttribute="width" constant="200" id="kSX-vW-PrE"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alias" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHF-ec-8R4">
+                                <rect key="frame" x="148.66666666666666" y="294" width="96" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="4EN-vl-dgH"/>
+                                    <constraint firstAttribute="height" constant="49" id="VzV-mK-FGN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="45"/>
+                                <color key="textColor" red="0.98936631939999997" green="0.98936631939999997" blue="0.98936631939999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92549020049999997" green="0.45098042490000001" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pHF-ec-8R4" firstAttribute="top" secondItem="xum-64-Ttj" secondAttribute="bottom" id="0dg-bp-JzK"/>
+                            <constraint firstItem="xum-64-Ttj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="4wV-Fy-mkl"/>
+                            <constraint firstItem="pHF-ec-8R4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="n6q-Xc-0BG"/>
+                            <constraint firstItem="xum-64-Ttj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xHx-Yw-43z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alipsico" width="341.33334350585938" height="341.33334350585938"/>
+    </resources>
+</document>
